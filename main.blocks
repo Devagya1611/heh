@@ -1,0 +1,52 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="Y|V7=9MsU_`6,+*IB%Kn">Player</variable><variable type="KIND_SpriteKind" id="2p^gV=l#vQn}7`(|P1Fl">Projectile</variable><variable type="KIND_SpriteKind" id="~~If;d~+X#~MJ}$jrvuK">Food</variable><variable type="KIND_SpriteKind" id="U8xZv*!z564I_[qb,mYO">Enemy</variable><variable id="n-hzWyH$^n4rUvw2EeV-">mySprite</variable><variable id="8i:?k61^TrxTOx;WK~aV">mySprite2</variable></variables><block type="pxt-on-start" id="p?KbW5=;NH@[D4,O^@D5" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="#gQg.o4*0E3rT4MP^?YJ"><field name="VAR" id="n-hzWyH$^n4rUvw2EeV-">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="w;$-AUKlVJ_|JI)a6}#d"><value name="img"><shadow type="screen_image_picker" id="L!@F(rql?A!dS_kto)8c"><field name="img">img`
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 . 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 . . 1 1 1 1 1 1 1 
+1 1 1 1 1 . f . f 1 1 1 1 1 1 1 
+1 1 1 1 1 . f f f 1 1 1 1 f 1 1 
+1 1 1 1 1 . f . . f 1 f f f 1 1 
+1 1 1 1 1 1 f 1 1 f f 1 f 1 1 1 
+1 1 1 f f f f 1 1 1 f f f 1 1 1 
+1 f f f f f f f f f 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"L!@F(rql?A!dS_kto)8c"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="`lP/mcz$C~(pLhap))PD"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="x:)jRjU_X6kxWA5=g(KU"><field name="VAR" id="8i:?k61^TrxTOx;WK~aV">mySprite2</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="aWE/d(7bCkbi9KL+JGm1"><value name="img"><shadow type="screen_image_picker" id="kuqk41gn+k~-)cMrQ:-g"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"kuqk41gn+k~-)cMrQ:-g"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="r[aG~_8f71gt5)z0t]8g"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block><block type="spritescreatenoset" id="vy-4Y?Z$*zXrl[VZlg^i" disabled="true" x="0" y="80"><value name="img"><shadow type="screen_image_picker" id="K`-8#-w{6`Qa5Q9hG$##" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"K`-8#-w{6`Qa5Q9hG$##"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="S+e4o=w*?-Fbk4heG^,B" disabled="true"><field name="MEMBER">Food</field></shadow></value></block><block type="gameinterval" id="9=8x*.UQh)[_7uS?EabS" x="90" y="270"><value name="period"><shadow type="timePicker" id=",o$N(GsWfWa[k0:#Q:W`"><field name="ms">500</field></shadow></value></block></xml>
